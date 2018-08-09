@@ -1,0 +1,26 @@
+div.content{
+
+    width: 100%;
+    
+}
+
+label{
+    color:#777777;
+    line-height: 2;
+}
+input{
+    width: 100%;
+    color: #777777;
+    /* border: 2px #c72222; */
+    /* border-radius: 4px; */
+    padding: 4px;
+}
+textarea{
+    color: #777777;
+    border:.1px solid #cecdcd;
+    resize: vertical;
+    text-align: left;
+    width: 100%;
+    
+    
+}

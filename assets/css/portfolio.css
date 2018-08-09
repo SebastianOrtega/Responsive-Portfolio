@@ -1,0 +1,20 @@
+div.overImage{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px; 
+}
+a.over{  
+    position: absolute;
+    left:1px;
+    top:138px;
+    background: #4aaaa5;
+    /* height: 50px; */
+    width: 274px;
+    text-align: center;
+    padding: 15px 0px ;
+    color: white ;
+    text-decoration: unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
