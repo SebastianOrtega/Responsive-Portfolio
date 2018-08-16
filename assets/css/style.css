@@ -26,10 +26,8 @@ div.menu {
 
 h2 {
     line-height: 20px;
-    /* display: inline; */
     float: left;
     margin-left: 30px;
-    /* margin-right: 10ch; */
     background: #4aaaa5;
     height: 50px;
     padding: 30px 40px 0px 40px;
@@ -70,65 +68,6 @@ div.content {
     border-style: solid;
     border-width: 2px;
     border-color: #ffffff;
-}
-
-@media screen and (max-width: 980px) {
-    /* * {
-        box-sizing: border-box;
-    } */
-    div.content {
-        width: 860px;
-    }
-    /* h2 {
-        height: 58px;
-    } */
-}
-
-@media screen and (max-width: 768px) {
-    /* * {
-        box-sizing: border-box;
-    } */
-    div.content {
-        width: 650px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    * {
-        box-sizing: border-box;
-    }
-    div.content {
-        width: 580px;
-    }
-    div.menu {
-        position: relative;
-        height: 110px;
-        margin: 0px;
-        width: 100%;
-        text-align: center;
-    }
-    h2 {
-        float: none;
-        width: 100%;
-        margin: 0px;
-        padding: 20px 0px 10px 0px;
-        text-align: center;
-    }
-    div.content {
-        margin: 30px 30px 30px 30px;
-    }
-    a.hmenu {
-        display: inline-block;
-        /* margin-left: 50px; */
-        float: none;
-        /* padding: 30px 30px 30px 30px; */
-        color: #777777;
-        /* margin-right: 80px; */
-        padding: 20px 10px 20px 10px;
-    }
-    div.mmenu {
-        margin-left: 50px;
-    }
 }
 
 p.title {
@@ -193,4 +132,54 @@ footer {
 
 .push {
     height: 30px;
+}
+
+@media screen and (max-width: 980px) {
+    div.content {
+        width: 860px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.content {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    * {
+        box-sizing: border-box;
+    }
+    div.content {
+        width: 580px;
+    }
+    div.menu {
+        position: relative;
+        height: 110px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    h2 {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 20px 0px 10px 0px;
+        text-align: center;
+    }
+    div.content {
+        margin: 30px 30px 30px 30px;
+    }
+    a.hmenu {
+        display: inline-block;
+        float: none;
+        color: #777777;
+        padding: 20px 10px 20px 10px;
+    }
+    img.mePhoto {
+        display: block;
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+    }
 }
